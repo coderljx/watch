@@ -1,0 +1,32 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    width: 100%;
+    height: 100vh;
+}
+
+.body > .header {
+    width: 100%;
+    height: 50px;
+    background-color: #eeeaea;
+}
+.body > .header > .header-left {
+    width: 400px;
+    display: flex;
+}
+
+.body > .bottom {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+}
+.bottom > .body-left {
+    width: 200px;
+    height: 100%;
+    background-color: #545c64;
+}
+.bottom > .body-right {
+    flex: 1;
+}
